@@ -50,6 +50,54 @@ let bouquet = flowers / women;
 console.log(bouquet);
 
 let ex = (3*2) > 22;
-let ex1 = 11%5;
-console.log(ex1); 
+let ex1 = 11/5;
+console.log(ex1);
 
+// let a = 5, b = 8,c = 5;
+
+let number = "пять";
+if (number > 0){
+  console.log("число " + number + " положительное");
+}
+else if (number < 0) {
+  console.log("Число " + number + " отрицательное");
+}
+else if(number === 0) {
+  console.log("число ноль не отрицательное и не положительное");
+}
+else {
+  console.log("пять не является числом");
+}
+
+
+// является ли число 5 четным или нечетным числом?
+let number2 = 5;
+if (number2 / 2) {
+  console.log( number2 + "является четным числом");
+}
+else if ( number2 % 2 === 1) {
+  console.log (number2 + "не явяется четным числом");
+}
+else {
+  console.log(number2 + "is not a number");
+} 
+
+//У Васи 212 сомов чватит ли ему денег на мороженое которая стоит 40 сом.
+let Vasy = 212;
+let icecream = 40;
+if ( Vasy >= icecream ){
+  console.log(Vasy + "is enogh");
+}
+else if ( Vasy <= icecream ) {
+  console.log ( Vasy + "is not enogh");
+}
+//Вывести каким сезоном является ли "январь"?
+ let month = "январь";
+ if ( month === "декабрь" || month === "январь" || month === "февраль"){
+  console.log( " это зима ");
+ }
+ else if ( month === "март" || month === "апрель" || month=== "май"){
+  console.log(" это весна");
+ }
+ else ( month === "июнь" || month === "июль" || month === "август")Х
+ console.log ("это лето");
