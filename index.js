@@ -99,7 +99,9 @@ else if ( Vasy <= icecream ) {
  else if ( month === "март" || month === "апрель" || month=== "май"){
   console.log(" это весна");
  }
- else ( month === "июнь" || month === "июль" || month === "август"){
+ else ( month === "июнь" || month === "июль" || month === "август") {
   console.log ("это лето");
  }
+  
+ 
  
